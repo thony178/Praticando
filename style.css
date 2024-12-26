@@ -1,3 +1,37 @@
+:root {
+    --BG-herder: #000000;
+    --BG-main:#8f8f8f;
+    --BG-footer:#646464;
+    --BG-text:#68631a;
+    --B-BG-T:#ff00ae;
+    --Text1:#8b8d44;
+    --Text2:#ff0000;
+    --BG-news:white;
+    --txt-news:black;
+    --text-color-question:#a4c7a2;
+    --text-color-disabled:#ffa0a0;
+    --buttoncolor1: rgba(214, 214, 27, 0.911);
+    --Buttoncolor2:rgb(143, 122, 7);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 100%;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,6 +49,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    background-color: #333;
 }
 
 nav ul li {
