@@ -1,0 +1,73 @@
+:root {
+    --BG-herder: #000000;
+    --BG-main:#8f8f8f;
+    --BG-footer:#646464;
+    --BG-text:#68631a;
+    --B-BG-T:#ff00ae;
+    --Text1:#8b8d44;
+    --Text2:#ff0000;
+    --BG-news:white;
+    --txt-news:black;
+    --text-color-question:#a4c7a2;
+    --text-color-disabled:#ffa0a0;
+    --buttoncolor1: rgba(214, 214, 27, 0.911);
+    --Buttoncolor2:rgb(143, 122, 7);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    border: 5px solid var(--BG-herder);
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    border: 5px solid var(--Text1);
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main .home {
+    border-radius: 10px;
+    background-color: #333;
+}
+
+main {
+    padding: 20px;
+    border: 5px solid var(--BG-herder);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
