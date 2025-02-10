@@ -3,9 +3,9 @@
     --BG-main:#8f8f8f;
     --BG-footer:#646464;
     --BG-text:#68631a;
-    --B-BG-T:#ff00ae;
-    --Text1:#8b8d44;
-    --Text2:#ff0000;
+    --BG-T:#ff00ae;
+    --cor-Text:#ffffff;
+    --cor-Text-destaque:#1d3adf;
     --BG-news:white;
     --txt-news:black;
     --text-color-question:#a4c7a2;
@@ -70,4 +70,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 450) {
+    
 }

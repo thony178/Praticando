@@ -20,7 +20,7 @@ body {
     background-color: var(--fundo-principal);
 }
 
-.footer_superior {
+.nota_superior {
     padding: 2%;
     text-align: center;
     background-color: var(--fundo-bloco-superior);
@@ -48,6 +48,6 @@ body {
     background-color: var(--fundo-bloco-inferior);
 }
 
-@media () {
-
+@media (max-width: 450) {
+    
 }
